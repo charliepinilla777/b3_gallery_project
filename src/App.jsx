@@ -1,11 +1,10 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import { Covenas1 } from './components/Covenas1';
-import { Covenas2 } from './components/Covenas2';
-import { Covenas3 } from './components/Covenas3';
-import { Covenas4 } from './components/Covenas4';
-import { Covenas5 } from './components/Covenas5';
-import { Covenas6 } from './components/Covenas6';
+import { Ciber2 } from './components/Ciber2';
+import { Ciber3 } from './components/Ciber3';
+import { Ciber4 } from './components/Ciber4';
+import { Ciber5 } from './components/Ciber5';
+
 import { Navigation } from './components/Navigation';
 
 function App() {
@@ -18,12 +17,12 @@ function App() {
         </div>
         <div className='container d-flex justify-content-center'>
           <Routes>
-            <Route path='/covenas1' element={<Covenas1 className='main-img-container'/>} />
-            <Route path='/covenas2' element={<Covenas2 className='main-img-container'/>} />
-            <Route path='/covenas3' element={<Covenas3 className='main-img-container'/>} />
-            <Route path='/covenas4' element={<Covenas4 className='main-img-container'/>} />
-            <Route path='/covenas5' element={<Covenas5 className='main-img-container'/>} />
-            <Route path='/covenas6' element={<Covenas6 className='main-img-container'/>} />
+            <Route path='/ciber2' element={<Ciber2 className='main-img-container'/>} />
+            <Route path='/ciber3' element={<Ciber3 className='main-img-container'/>} />
+            <Route path='/ciber4' element={<Ciber4 className='main-img-container'/>} />
+            <Route path='/ciber5' element={<Ciber5 className='main-img-container'/>} />
+            
+            
           </Routes>
         </div>
         <div className='container'>

@@ -1,50 +1,40 @@
 import { Link } from 'react-router-dom';
-import { Covenas1 } from './Covenas1';
-import { Covenas2 } from './Covenas2';
-import { Covenas3 } from './Covenas3';
-import { Covenas4 } from './Covenas4';
-import { Covenas5 } from './Covenas5';
-import { Covenas6 } from './Covenas6';
+import { Ciber2 } from './Ciber2';
+import { Ciber3 } from './Ciber3';
+import { Ciber4 } from './Ciber4';
+import { Ciber5 } from './Ciber5';
+
+
 
 export const Navigation = () => {
   return (
     <div className='container thumbnail-container mt-2'>
-      <Link to='/covenas1' className='links'>
+      <Link to='/ciber2' className='links'>
         <figure className='thumbnail-image-size'>
-          <Covenas1 />
-          <figcaption>Coveñas 1</figcaption>
+          <Ciber2 />
+          <figcaption>Ciber2</figcaption>
         </figure>
       </Link>
-      <Link to='/covenas2' className='links'>
+      <Link to='/ciber3' className='links'>
         <figure className='thumbnail-image-size'>
-          <Covenas2 />
-          <figcaption>Coveñas 2</figcaption>
+          <Ciber3 />
+          <figcaption>Ciber3</figcaption>
         </figure>
       </Link>
-      <Link to='/covenas3' className='links'>
+      <Link to='/ciber4' className='links'>
         <figure className='thumbnail-image-size'>
-          <Covenas3 />
-          <figcaption>Coveñas 3</figcaption>
+          <Ciber4 />
+          <figcaption>Ciber4</figcaption>
         </figure>
       </Link>
-      <Link to='/covenas4' className='links'>
+      <Link to='/ciber5' className='links'>
         <figure className='thumbnail-image-size'>
-          <Covenas4 />
-          <figcaption>Coveñas 4</figcaption>
+          <Ciber5 />
+          <figcaption>Ciber5</figcaption>
         </figure>
       </Link>
-      <Link to='/covenas5' className='links'>
-        <figure className='thumbnail-image-size'>
-          <Covenas5 />
-          <figcaption>Coveñas 5</figcaption>
-        </figure>
-      </Link>
-      <Link to='/covenas6' className='links'>
-        <figure className='thumbnail-image-size'>
-          <Covenas6 />
-          <figcaption>Coveñas 6</figcaption>
-        </figure>
-      </Link>
+      
+     
     </div>
   )
 }
